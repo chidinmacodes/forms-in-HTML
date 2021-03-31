@@ -1,0 +1,164 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="Introduction" content="I'M LONELY.Talk to me ">
+		<meta name="Author" content="Chidinma Moses Sule">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title> Form</title>
+	</head>
+	<body>
+
+		<H1> REGISTRATION FORM</H1>
+
+		<form>
+			<label>First name</label>
+			<!-- using the value attribute, here we make sure 
+				that the value of the name in first name appears on the form, then the user is abke to erase it and input thier own values -->
+
+			<input type="text" name="firstname" value=" Sule"> <br> <br>
+
+			<label> Surname</label>
+
+			<input type="text" name=" Lastname" value=" Moses
+			">  <br><br>
+
+			<label>Email</label>
+
+			<input type="email" name=" email" value=" you@momail.com"> <br><br>
+
+
+<!-- using the placeholder attribute, here we make sure 
+				that the value of the name in first name appears on the form, then the user is does not need to erase it and input thier own values, they can write over it -->
+
+<label>
+<H3>
+	 EXPLAINING PLACE HOLDER
+</H3> </label>
+
+			<label>First name</label>
+
+			<input type="text" name="firstname" placeholder=" Moses"> <br> <br>
+
+			<label> Surname</label>
+
+			<input type="text" name=" Lastname" placeholder=" chidex">  <br><br>
+
+			<label>Email</label>
+
+			<input type="email" name=" email" placeholder="you@momail.com"> <br><br>
+
+<label>
+<H3>
+	 EXPLAINING DISABLED  and ENABLED ATTRIBUTE
+</H3> </label>
+<!-- using the disabled attribute, here we make sure 
+				 then the user cannot input because it ss not clickable anything in the field while the enabled, the user can still be able to enter input because it is clickable  -->
+			<label>First name</label>
+
+			<input type="text" name="firstname" placeholder=" Sule" disabled=""> <br> <br>
+
+			<label> Surname</label>
+
+			<input type="text" name=" Lastname" placeholder=" Moses" enabled="">  <br><br>
+
+			<label>Email</label>
+
+			<input type="email" name=" email" placeholder="you@momail.com" disabled> <br><br>
+
+
+<h3> Using the required attribute</h3>
+<!-- there will be a prompting bringing us back to this line to fill it out becasue it is a required attributr-->
+
+	<label>Email</label>
+
+			<input type="email" name=" email" placeholder="you@momail.com" required> <br><br>
+
+
+
+ 
+			
+			<label> Password</label> 
+			<input type=" Password" name=""> <br> <br>
+
+
+
+			<h3> Explaining max length with Password </h3>
+			<label> Password</label> 
+			<input type="Password" name="" maxlength="3"> <br> <br>
+
+
+
+
+			<label> Gender</label>
+
+			<input type="Gender" name="" > <br><br>
+
+			<label> Phone Number</label>
+
+			<input type="number" name=""> <br><br>
+
+			<label> Educational Qualification</label> 
+
+
+<!-- you can use the <div> tag to enclose your form elements instead of using <br> tag-->
+
+<h3> Using the DIV  tag instead of the BR  tag </h3>
+
+			<div>	
+			<label> Gender</label>
+
+			<input type="Gender" name="" > 
+	
+			</div>
+
+
+			<div>
+				
+				<label> Phone Number</label>
+
+			<input type="number" name=""> 
+			</div>
+
+
+
+
+			<label> Educational Qualification</label>
+
+
+			<select multiple>
+				<option value=" select " selected=""> select</option>
+				
+				<option value=" Bachelors"> Bachelors Degree</option>
+
+				<option  value=" masters "> Masters Degree </option>
+
+				<option value=" PHD"=> PHD</option>
+
+				<option value=" SSCE"> Secondary School Certificate Examination</option>
+
+
+			</select><br> <br> <br>
+
+			<label> Are you married?</label>
+			<input type="radio" name=" marital-status"> Yes
+			<input type="radio" name=" marital-status"> No <br> <br>
+
+			<label> Field(s) of interest</label> <br>
+			<input type="checkbox" name=""> programming<br>
+			<input type="checkbox" name=""> cooking<br>
+			<input type="checkbox" name=""> sewing<br>
+			<input type="checkbox" name=""> singing<br> <br>
+
+			<label> Upload your Picture here</label><br>
+			<input type="file" name=""> <br> <br>
+
+			<label> Tell us about yourself</label>
+			<textarea rows="10" cols="60"> Write here...</textarea> <br><br>
+
+			<button> Click here to submit</button>
+		</form>
+	
+	</body>
+	</html>
